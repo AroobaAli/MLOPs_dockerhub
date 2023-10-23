@@ -11,7 +11,7 @@ pipeline {
         stage('Install Requirements') {
             steps {
                 bat 'python --version'
-                bat 'python -m pip install --upgrade pip
+                bat 'python -m pip install --upgrade pip' 
                 bat 'pip install --user -r requirements.txt'
             }
         }
