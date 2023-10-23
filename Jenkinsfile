@@ -12,7 +12,7 @@ pipeline {
             steps {
                 bat 'python --version'
                 bat 'python -m pip install --upgrade pip --user' 
-                bat 'pip install --user -r requirements.txt'
+                bat 'pip3 install --user -r requirements.txt'
             }
         }
         
